@@ -1,12 +1,16 @@
-﻿using Tabuleiro;
+﻿using System;
+using tabuleiro;
 
-internal class Program
+
+namespace Xadrez_Console
 {
-    private static void Main(string[] args)
+    internal class Program
     {
-        Posicao p;
-        p = new Posicao(3, 4);
-        Console.WriteLine(" Posição " + p);
-        
+        static void Main(string[] args)
+        {
+            Tabuleiro tab = new Tabuleiro(8, 8);
+            Console.WriteLine();
+
+        }
     }
 }
