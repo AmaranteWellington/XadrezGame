@@ -18,6 +18,11 @@ namespace tabuleiro
          
         }
 
+        public Peca peca(int linhas, int colunas)
+        {
+            return pecas[linhas,colunas];
+        }
+
 
 
     }
